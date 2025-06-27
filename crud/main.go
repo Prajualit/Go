@@ -16,9 +16,9 @@ type Todo struct {
 
 func main() {
 	fmt.Println("We are learning HTTP requests in Go")
-	// performGetRequest()
-	// performPostRequest()
-	// performUpdateRequest()
+	performGetRequest()
+	performPostRequest()
+	performUpdateRequest()
 	performDeleteRequest()
 }
 
